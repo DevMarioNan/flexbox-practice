@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+html,body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+.nav{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h2{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #1F2937;
+}
+
+
+nav ul{
+    display: flex;
+    gap : 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+a{
+    cursor: pointer;
+}
+
+.hero{
+    background-color: #1F2937;
+    padding: 100px;
+
+}
+
+.hero-flex{
+    display: flex;
+    gap: 30px;
+}
+
+.hero-disc {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-disc h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hero-disc p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-disc button{
+    align-self: flex-start;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    font-size: 25px;
+}
+
+.hero-flex img{
+    width: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 100px 0;
+}
+
+.info h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+}
+
+.info .items{
+    display: flex;
+    gap: 30px;
+}
+
+.info .items .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info .items .item img{
+    width: 100%;
+}
+
+.main-quote{
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote{
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author{
+    font-size: 36px;
+    text-align: end;
+    font-weight: bold;
+}
+
+
+.call-div{
+    padding:100px 0;
+}
+
+.call{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px ;
+    padding: 30px 0;
+}
+
+.call p{
+    color: #e5e7eb;
+}
+
+.call button{
+    font-size: 30px;
+    padding: 10px 50px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1F2937;
+    color: white;
+}
